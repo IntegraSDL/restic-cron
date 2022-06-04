@@ -1,1 +1,2 @@
-* * * * * echo "test"
+# backup repository
+* * * * * restic backup $BACKUP_DIRECTORY_PATH

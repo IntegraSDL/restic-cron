@@ -1,2 +1,8 @@
-# restic-cron
-Restic with cron scheduler
+# restic-cron docker image to run restic backup
+Restic with cron scheduler for backup. This is not generic restic-cron backup. Just for particular project
+
+All parameters passed through environment variables
+
+* RESTIC_REPOSITORY - URL to restic repository
+* RESTIC_PASSWORD - password for restic repository
+* BACKUP_DIRECTORY_PATH - path to directory to be backuped
