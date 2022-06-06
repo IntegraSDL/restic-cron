@@ -1,2 +1,2 @@
 # backup repository
-* * * * * restic backup $BACKUP_DIRECTORY_PATH
+20 0 * * * restic backup $BACKUP_DIRECTORY_PATH

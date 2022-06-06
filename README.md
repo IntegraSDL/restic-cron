@@ -6,3 +6,5 @@ All parameters passed through environment variables
 * RESTIC_REPOSITORY - URL to restic repository
 * RESTIC_PASSWORD - password for restic repository
 * BACKUP_DIRECTORY_PATH - path to directory to be backuped
+
+By default data is backed up on dairly basis. jobs file can be extended improve backup schedule and management.
